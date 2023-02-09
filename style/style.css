@@ -11,3 +11,26 @@ body {
     background-color: aqua;
     height: 800px;
 }
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-link-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-link {
+    margin: 0 2rem;
+}
+
+.first-section-content {
+    display:flex;
+    background-color: orange;
+    justify-content: space-between;
+}
+
+.website-description-container {
+}

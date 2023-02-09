@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+ }
+
+.page-container {
+    width: 100%;
+    background-color: aqua;
+    height: 800px;
+}

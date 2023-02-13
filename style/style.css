@@ -6,6 +6,12 @@ body {
     margin: 0;
  }
 
+ button {
+    background-color: #3882f6;
+    border: 2em;
+    border-radius: 20%;
+ }
+
 .page-container {
     width: 100%;
     background-color: aqua;
@@ -29,8 +35,15 @@ body {
 .first-section-content {
     display:flex;
     background-color: orange;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .website-description-container {
+    display: flex;
+    flex-direction: column;
+    border: 20px red solid;
+}
+
+.sign-up-button {
+    align-self: flex-start;
 }

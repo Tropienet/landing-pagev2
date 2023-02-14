@@ -9,13 +9,16 @@ body {
  button {
     background-color: #3882f6;
     border: 2em;
-    border-radius: 20%;
+    border-radius: 8px;
  }
 
 .page-container {
     width: 100%;
-    background-color: aqua;
     height: 800px;
+}
+
+.first-section-container {
+    background-color: #1f2937;
 }
 
 .header-container {
@@ -28,22 +31,59 @@ body {
     align-items: center;
 }
 
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
 .header-link {
+    color: #E7E7EB;
+    font-size: 18px;
     margin: 0 2rem;
 }
 
 .first-section-content {
-    display:flex;
-    background-color: orange;
+    display: flex;
+    background-color: #1f2937;
     justify-content: space-around;
 }
 
 .website-description-container {
     display: flex;
     flex-direction: column;
-    border: 20px red solid;
 }
 
 .sign-up-button {
     align-self: flex-start;
+}
+
+.website-photo-container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.website-photo {
+    width: 500px;
+    height: 200px;
+}
+
+.second-section-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.random-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-img {
+    border: #3882f6 2px solid;
 }
